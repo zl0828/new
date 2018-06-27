@@ -1,0 +1,13 @@
+{
+    "name": "zhanglong/hello",
+    "description": "echo hello world",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
